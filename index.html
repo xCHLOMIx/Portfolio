@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Chlomi</title>
+</head>
+<body>
+    <a href="#home"><button id="float"><img src="img/arrow.png" alt=""></button></a>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    <section id="home">
+        <div class="content">
+            <p id="greeting">Hi, my name is</p>
+            <span>Chlomi</span>
+            <p id="work_intro">I build fullstack apps.</p>
+            <p id="work_text">
+                Aspiring full-stack developer passionate about
+                creating ideal, efficient, and powerful web
+                applications.
+            </p>
+        </div>
+        <a href="#contacts"><button>Reach out</button></a>
+    </section>
+    <section id="about">
+        <div class="content">
+            <div class="text">
+                <span>About me</span>
+                <p id="work_description">
+                    Hi there, my name is Gutabarwa Chlomi. I'm a full-stack
+                    developer based in Kigali, Rwanda. My goal is
+                    to use my skills to design and build websites that
+                    people enjoy using. I love making both the front
+                    and back parts of websites work well. I'm here to
+                    help bring your digital projects to life.
+                </p>
+            </div>
+            <div class="skills">
+                <span>Skills</span>
+                <div class="logos">
+                    <div class="backend">
+                        <img src="img/django.png" alt="" id="backend">
+                        <img src="img/node.png" alt="" id="backend">
+                        <img src="img/php.png" alt="" id="backend">
+                    </div>
+                    <div class="frontend">
+                        <div class="skill">
+                            <img src="img/html.png" alt="" id="frontend">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/css.png" alt="" id="frontend">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/js.png" alt="" id="frontend">
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/tailwind.png" alt="" id="frontend">
+                            <span>TAILWIND</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="content">
+            <span>My Work</span>
+            <div class="projects">
+                <div class="project">
+                    <img src="img/project.png" alt="">
+                    <p class="h1">Coke Clone</p>
+                    <p id="project_description">
+                        The goal here was to
+                        replicate the iconic look and feel of the Coca-Cola
+                        brand with precise attention to detail. By leveraging
+                        Tailwind's utility-first approach, I crafted
+                        a clean and modern design, complete with dynamic elements
+                        and smooth transitions.
+                    </p>
+                    <div class="used">
+                        <img src="img/html.png" alt="">
+                        <img src="img/tailwind.png" alt="">
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/xCHLOMIx/coke" target="_blank"><button id="github"><img src="img/github.png" alt=""></button></a>
+                        <a href="https://cokeclone.netlify.app/" target="_blank"><button><img src="img/link.png" alt=""></button></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/project.png" alt="">
+                    <p class="h1">Shoe Store API</p>
+                    <p id="project_description">
+                        This project provides essential functionalities
+                        such as user authentication, stock management,
+                        inserting and removing products as well as updating them.
+                        *Authentication is still in progess*
+                    </p>
+                    <div class="used">
+                        <img src="img/django.png" alt="" id="backend_used">
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/xCHLOMIx/StockWise" target="_blank"><button id="github"><img src="img/github.png" alt=""></button></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/project.png" alt="">
+                    <p class="h1">NexusMall</p>
+                    <p id="project_description">
+                        This project is a full-stack Node.js application,
+                        serving as an e-commerce website with functionalities
+                        for adding, removing products, and processing orders.
+                        I contributed to both frontend and backend development
+                        efforts during its creation.
+                    </p>
+                    <div class="used">
+                        <img src="img/html.png" alt="">
+                        <img src="img/css.png" alt="">
+                        <img src="img/node.png" alt="" id="backend_used">
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/xCHLOMIx/NexusMall" target="_blank">
+                            <button id="github"><img src="img/github.png" alt=""></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <span>My Contacts</span>
+        <div class="contacts">
+            <div class="email">
+                <img src="img/email.png" alt="">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chlomi2006@gmail.com" target="_blank">
+                    <span>
+                        chlomi2006@gmail.com
+                    </span>
+                </a>
+            </div>
+            <div class="email">
+                <img src="img/tel.png" alt="">
+                <span>
+                    0790782356
+                </span>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/chlomi-justifie-gutabarwa-80b323295/"><img src="img/linkedin.png" alt=""></a>
+            <a href="https://github.com/xCHLOMIx"><img src="img/github.png" alt=""></a>
+        </div>
+        <center><span id="copyright"><span id="copy">&copy;</span> Copyright 2024. Done by Chlomi</span></center>
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

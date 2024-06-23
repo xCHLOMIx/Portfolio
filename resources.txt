@@ -1,0 +1,3 @@
+Main: #191919;
+Sub-main: #FFB1B1;
+text: white;
